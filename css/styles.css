@@ -250,3 +250,37 @@ footer #footer-links {
         margin-bottom: 10px ;
     }
 }
+
+/* RESPONSIVIDADE TABLET */
+@media(max-width: 900px) and (min-width: 450px){
+    
+    #banner-container img{
+    width: 100%;
+    margin-left: 110px;
+    }
+
+    #form-box{
+        margin-left: 120px;
+        height: 65%;
+    }
+
+    #register-container{
+        margin-left: 120px;
+    }
+
+    #get-app-container{
+        margin-left: 120px;
+    }
+
+    #footer-links{
+        margin-top: 20px;
+    }
+
+    #footer-links a{
+        font-size: 14px;
+    }
+
+    #copyright{
+        font-size: 14px;
+    }
+}
