@@ -284,3 +284,51 @@ footer #footer-links {
         font-size: 14px;
     }
 }
+
+/* MODO ESCURO */
+@media (prefers-color-scheme: dark){
+    
+    body{
+        background-color: #090909;
+    }
+    #form-box{
+        background-color: #111111;
+        border-color: #242424;
+    }
+
+    #login-form input{
+        background-color: #444444;
+        border: #888888;
+    }
+    #login-form input[type="submit"]{
+    background-color: #505393;
+    }
+    .separator span{
+        background-color: #111111;
+    }
+    #facebook-login a{
+    color: #4a6aaf;
+    }
+    #forgot-pass a{
+    text-decoration: none;
+    color: #d2d2d2;
+    }
+    #register-container{
+        border-color: #242424;
+        background-color: #111111;
+    }
+    #register-container p{
+        color: #d2d2d2;
+    }
+    #get-app-container p{
+        color: #fff;
+    }
+    @media(max-width: 450px){
+        #form-box,
+        .separator span,
+        #register-container{
+            background-color: #090909;
+        }
+
+    }
+}
